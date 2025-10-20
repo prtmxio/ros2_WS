@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target my_listener[0m
+[ 50%] Built target my_talker
+[ 75%] [32mBuilding CXX object CMakeFiles/my_listener.dir/src/listener_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_listener[0m
+[100%] Built target my_listener
+-- Install configuration: ""
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_talker
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_listener
+-- Set runtime path of "/home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_listener" to ""
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/package_run_dependencies/talker_listener
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/parent_prefix_path/talker_listener
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.sh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.sh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.dsv
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.bash
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.sh
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.zsh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.dsv
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/packages/talker_listener
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig.cmake
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig-version.cmake
+-- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.xml

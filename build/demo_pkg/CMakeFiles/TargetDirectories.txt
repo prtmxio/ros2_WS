@@ -1,0 +1,9 @@
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/uninstall.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/demo_pkg_uninstall.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/test.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/edit_cache.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/rebuild_cache.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/list_install_components.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/install.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/install/local.dir
+/home/pritam/ros2_WS/build/demo_pkg/CMakeFiles/install/strip.dir

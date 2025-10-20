@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (demo_pkg) JobQueued: {'identifier': 'demo_pkg', 'dependencies': OrderedDict()}
+[0.000387] (talker_listener) JobQueued: {'identifier': 'talker_listener', 'dependencies': OrderedDict()}
+[0.000422] (demo_pkg) JobStarted: {'identifier': 'demo_pkg'}
+[0.005607] (talker_listener) JobStarted: {'identifier': 'talker_listener'}
+[0.010086] (demo_pkg) JobProgress: {'identifier': 'demo_pkg', 'progress': 'cmake'}
+[0.010565] (demo_pkg) JobProgress: {'identifier': 'demo_pkg', 'progress': 'build'}
+[0.011615] (demo_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pritam/ros2_WS/build/demo_pkg', '--', '-j12', '-l12'], 'cwd': '/home/pritam/ros2_WS/build/demo_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pritam'), ('GIT_ASKPASS', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pritam'), ('OLDPWD', '/home/pritam/ros2_WS/src/demo_pkg'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d9a79157-fe80-4d1b-a5b9-517a92dfdf17.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pritam/ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pritam'), ('NAME', 'Pritam-Laptop'), ('WSL_INTEROP', '/run/WSL/582_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/OpenJDK/jdk-21.0.1/bin:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Pritam/scoop/shims:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Pritam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.5/bin:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/intelFPGA_lite/20.1/modelsim_ase/win32aloem:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-b84c92c664497ec0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/pritam/.vscode-server/data/User/workspaceStorage/e0b9456a2c940551e8e8157cf1cfb608/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fa41a6b1ba.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pritam/ros2_WS/build/demo_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.016904] (talker_listener) JobProgress: {'identifier': 'talker_listener', 'progress': 'cmake'}
+[0.017897] (talker_listener) JobProgress: {'identifier': 'talker_listener', 'progress': 'build'}
+[0.019684] (talker_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pritam/ros2_WS/build/talker_listener', '--', '-j12', '-l12'], 'cwd': '/home/pritam/ros2_WS/build/talker_listener', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pritam'), ('GIT_ASKPASS', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pritam'), ('OLDPWD', '/home/pritam/ros2_WS/src/demo_pkg'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d9a79157-fe80-4d1b-a5b9-517a92dfdf17.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pritam/ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pritam'), ('NAME', 'Pritam-Laptop'), ('WSL_INTEROP', '/run/WSL/582_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/OpenJDK/jdk-21.0.1/bin:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Pritam/scoop/shims:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Pritam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.5/bin:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/intelFPGA_lite/20.1/modelsim_ase/win32aloem:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-b84c92c664497ec0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/pritam/.vscode-server/data/User/workspaceStorage/e0b9456a2c940551e8e8157cf1cfb608/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fa41a6b1ba.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pritam/ros2_WS/build/talker_listener'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.043545] (talker_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.049151] (demo_pkg) CommandEnded: {'returncode': 0}
+[0.050253] (demo_pkg) JobProgress: {'identifier': 'demo_pkg', 'progress': 'install'}
+[0.058437] (demo_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pritam/ros2_WS/build/demo_pkg'], 'cwd': '/home/pritam/ros2_WS/build/demo_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pritam'), ('GIT_ASKPASS', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pritam'), ('OLDPWD', '/home/pritam/ros2_WS/src/demo_pkg'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d9a79157-fe80-4d1b-a5b9-517a92dfdf17.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pritam/ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pritam'), ('NAME', 'Pritam-Laptop'), ('WSL_INTEROP', '/run/WSL/582_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pritam/.vscode-server/bin/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/OpenJDK/jdk-21.0.1/bin:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Pritam/scoop/shims:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Pritam/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Pritam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.5/bin:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/intelFPGA_lite/20.1/modelsim_ase/win32aloem:/mnt/c/Users/Pritam/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/pritam/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-b84c92c664497ec0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/pritam/.vscode-server/data/User/workspaceStorage/e0b9456a2c940551e8e8157cf1cfb608/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fa41a6b1ba.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pritam/ros2_WS/build/demo_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.064154] (demo_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.064822] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/circle.py\n'}
+[0.065048] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_A.py\n'}
+[0.065235] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_B.py\n'}
+[0.065480] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/pub.py\n'}
+[0.065691] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_loop.py\n'}
+[0.066035] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_open.py\n'}
+[0.066171] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/sub.py\n'}
+[0.066435] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch\n'}
+[0.066849] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch/main.launch.py\n'}
+[0.066984] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/package_run_dependencies/demo_pkg\n'}
+[0.067069] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/parent_prefix_path/demo_pkg\n'}
+[0.067150] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.sh\n'}
+[0.067230] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.dsv\n'}
+[0.067308] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.sh\n'}
+[0.067384] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.dsv\n'}
+[0.067459] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.bash\n'}
+[0.067535] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.sh\n'}
+[0.067610] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.zsh\n'}
+[0.067684] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.dsv\n'}
+[0.067758] (demo_pkg) StdoutLine: {'line': b'-- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.dsv\n'}
+[0.067837] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/packages/demo_pkg\n'}
+[0.067913] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig.cmake\n'}
+[0.067988] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig-version.cmake\n'}
+[0.068059] (demo_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.xml\n'}
+[0.070327] (demo_pkg) CommandEnded: {'returncode': 0}
+[0.084065] (demo_pkg) JobEnded: {'identifier': 'demo_pkg', 'rc': 0}
+[0.099306] (-) TimerEvent: {}
+[0.160804] (talker_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199469] (-) TimerEvent: {}
+[0.299888] (-) TimerEvent: {}
+[0.345592] (talker_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347522] (talker_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.352120] (talker_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.360291] (talker_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.375077] (talker_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400045] (-) TimerEvent: {}
+[0.409299] (talker_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.410533] (talker_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500257] (-) TimerEvent: {}
+[0.600719] (-) TimerEvent: {}
+[0.701119] (-) TimerEvent: {}
+[0.801606] (-) TimerEvent: {}
+[0.902045] (-) TimerEvent: {}
+[1.002600] (-) TimerEvent: {}
+[1.103161] (-) TimerEvent: {}
+[1.203666] (-) TimerEvent: {}
+[1.304296] (-) TimerEvent: {}
+[1.404739] (-) TimerEvent: {}
+[1.505129] (-) TimerEvent: {}
+[1.605496] (-) TimerEvent: {}
+[1.705885] (-) TimerEvent: {}
+[1.806324] (-) TimerEvent: {}
+[1.906812] (-) TimerEvent: {}
+[2.007404] (-) TimerEvent: {}
+[2.107891] (-) TimerEvent: {}
+[2.208357] (-) TimerEvent: {}
+[2.308845] (-) TimerEvent: {}
+[2.409301] (-) TimerEvent: {}
+[2.509694] (-) TimerEvent: {}
+[2.610095] (-) TimerEvent: {}
+[2.710418] (-) TimerEvent: {}
+[2.810785] (-) TimerEvent: {}
+[2.911251] (-) TimerEvent: {}
+[3.011725] (-) TimerEvent: {}
+[3.112184] (-) TimerEvent: {}
+[3.212654] (-) TimerEvent: {}
+[3.313119] (-) TimerEvent: {}
+[3.413589] (-) TimerEvent: {}
+[3.514040] (-) TimerEvent: {}
+[3.614435] (-) TimerEvent: {}
+[3.714786] (-) TimerEvent: {}
+[3.815204] (-) TimerEvent: {}
+[3.915591] (-) TimerEvent: {}
+[4.015967] (-) TimerEvent: {}
+[4.116355] (-) TimerEvent: {}
+[4.216820] (-) TimerEvent: {}
+[4.317440] (-) TimerEvent: {}
+[4.418060] (-) TimerEvent: {}
+[4.518851] (-) TimerEvent: {}
+[4.619434] (-) TimerEvent: {}
+[4.720020] (-) TimerEvent: {}
+[4.820570] (-) TimerEvent: {}
+[4.921079] (-) TimerEvent: {}
+[5.021696] (-) TimerEvent: {}
+[5.122527] (-) TimerEvent: {}
+[5.223020] (-) TimerEvent: {}
+[5.323419] (-) TimerEvent: {}
+[5.423921] (-) TimerEvent: {}
+[5.524786] (-) TimerEvent: {}
+[5.625473] (-) TimerEvent: {}
+[5.726045] (-) TimerEvent: {}
+[5.826768] (-) TimerEvent: {}
+[5.927308] (-) TimerEvent: {}
+[6.027831] (-) TimerEvent: {}
+[6.128359] (-) TimerEvent: {}
+[6.228861] (-) TimerEvent: {}
+[6.329386] (-) TimerEvent: {}
+[6.429822] (-) TimerEvent: {}
+[6.530161] (-) TimerEvent: {}
+[6.630726] (-) TimerEvent: {}
+[6.731378] (-) TimerEvent: {}
+[6.831799] (-) TimerEvent: {}
+[6.932230] (-) TimerEvent: {}
+[7.032646] (-) TimerEvent: {}
+[7.133047] (-) TimerEvent: {}
+[7.233472] (-) TimerEvent: {}
+[7.333964] (-) TimerEvent: {}
+[7.434560] (-) TimerEvent: {}
+[7.535165] (-) TimerEvent: {}
+[7.635637] (-) TimerEvent: {}
+[7.736123] (-) TimerEvent: {}
+[7.836599] (-) TimerEvent: {}
+[7.937086] (-) TimerEvent: {}
+[8.037532] (-) TimerEvent: {}
+[8.137903] (-) TimerEvent: {}
+[8.238260] (-) TimerEvent: {}
+[8.338692] (-) TimerEvent: {}
+[8.379897] (talker_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.420665] (talker_listener) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[8.420880] (talker_listener) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[8.420926] (talker_listener) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.420963] (talker_listener) StderrLine: {'line': b'  CMakeLists.txt:16 (ament_target_dependencies)\n'}
+[8.420996] (talker_listener) StderrLine: {'line': b'\n'}
+[8.421029] (talker_listener) StderrLine: {'line': b'\x1b[0m\n'}
+[8.421268] (talker_listener) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.421356] (talker_listener) StdoutLine: {'line': b'See also "/home/pritam/ros2_WS/build/talker_listener/CMakeFiles/CMakeOutput.log".\n'}
+[8.426268] (talker_listener) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[8.428309] (talker_listener) CommandEnded: {'returncode': 2}
+[8.433645] (talker_listener) JobEnded: {'identifier': 'talker_listener', 'rc': 2}
+[8.438827] (-) TimerEvent: {}
+[8.444274] (-) EventReactorShutdown: {}

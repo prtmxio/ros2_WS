@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/talker
+-- Set runtime path of "/home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/talker" to ""
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/package_run_dependencies/talker_listener
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/parent_prefix_path/talker_listener
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.sh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.dsv
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.sh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.dsv
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.bash
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.sh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.zsh
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.dsv
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/packages/talker_listener
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig.cmake
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig-version.cmake
+-- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.xml

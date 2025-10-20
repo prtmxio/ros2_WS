@@ -1,0 +1,54 @@
+[0.022s] Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake /home/pritam/ros2_WS/src/demo_pkg -DCMAKE_INSTALL_PREFIX=/home/pritam/ros2_WS/install/demo_pkg
+[0.256s] -- The C compiler identification is GNU 11.4.0
+[0.842s] -- The CXX compiler identification is GNU 11.4.0
+[1.368s] -- Detecting C compiler ABI info
+[1.499s] -- Detecting C compiler ABI info - done
+[1.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.506s] -- Detecting C compile features
+[1.506s] -- Detecting C compile features - done
+[1.509s] -- Detecting CXX compiler ABI info
+[1.636s] -- Detecting CXX compiler ABI info - done
+[1.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.643s] -- Detecting CXX compile features
+[1.643s] -- Detecting CXX compile features - done
+[1.645s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.781s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.858s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.858s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.929s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.930s] -- Added test 'lint_cmake' to check CMake code style
+[1.931s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.932s] -- Added test 'xmllint' to check XML markup files
+[1.933s] -- Configuring done
+[1.936s] -- Generating done
+[1.938s] -- Build files have been written to: /home/pritam/ros2_WS/build/demo_pkg
+[1.942s] Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake /home/pritam/ros2_WS/src/demo_pkg -DCMAKE_INSTALL_PREFIX=/home/pritam/ros2_WS/install/demo_pkg
+[1.944s] Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[1.976s] Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[1.985s] Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg
+[1.991s] -- Install configuration: ""
+[1.991s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/circle.py
+[1.992s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_A.py
+[1.992s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_B.py
+[1.993s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/pub.py
+[1.993s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_loop.py
+[1.994s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_open.py
+[1.994s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/sub.py
+[1.995s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch
+[1.995s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch/main.launch.py
+[1.996s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/package_run_dependencies/demo_pkg
+[1.996s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/parent_prefix_path/demo_pkg
+[1.996s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.sh
+[1.997s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.dsv
+[1.997s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.sh
+[1.997s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.dsv
+[1.997s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.bash
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.sh
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.zsh
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.dsv
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.dsv
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/packages/demo_pkg
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig.cmake
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig-version.cmake
+[1.998s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.xml
+[2.001s] Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg

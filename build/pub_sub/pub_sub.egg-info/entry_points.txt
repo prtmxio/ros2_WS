@@ -1,0 +1,4 @@
+[console_scripts]
+listener = pub_sub.listener_node:main
+talker = pub_sub.talker_node:main
+

@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/my_listener.dir/src/listener_node.cpp.o[0m
+[0.065s] [ 75%] Built target my_talker
+[7.966s] [100%] [32m[1mLinking CXX executable my_listener[0m
+[8.377s] [100%] Built target my_listener
+[8.389s] Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+[8.391s] Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener
+[8.398s] -- Install configuration: ""
+[8.398s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_talker
+[8.398s] -- Installing: /home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_listener
+[8.402s] -- Set runtime path of "/home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_listener" to ""
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/package_run_dependencies/talker_listener
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/parent_prefix_path/talker_listener
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.sh
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.dsv
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.sh
+[8.402s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.dsv
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.bash
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.sh
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.zsh
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.dsv
+[8.403s] -- Installing: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/packages/talker_listener
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig.cmake
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig-version.cmake
+[8.403s] -- Up-to-date: /home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.xml
+[8.405s] Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener

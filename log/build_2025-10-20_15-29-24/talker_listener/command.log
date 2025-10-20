@@ -1,0 +1,4 @@
+Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener
+Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pritam/ros2_WS/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener

@@ -1,0 +1,17 @@
+/home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_talker
+/home/pritam/ros2_WS/install/talker_listener/lib/talker_listener/my_listener
+/home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/package_run_dependencies/talker_listener
+/home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/parent_prefix_path/talker_listener
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.sh
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/ament_prefix_path.dsv
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.sh
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/environment/path.dsv
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.bash
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.sh
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.zsh
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/local_setup.dsv
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv
+/home/pritam/ros2_WS/install/talker_listener/share/ament_index/resource_index/packages/talker_listener
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig.cmake
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/cmake/talker_listenerConfig-version.cmake
+/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.xml

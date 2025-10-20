@@ -1,0 +1,206 @@
+[0.289s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.289s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76f0b3f1bcd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76f0b40c49a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76f0b40c49a0>>)
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.694s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pritam/ros2_WS'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_pkg) by extension 'ros'
+[0.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_pkg' with type 'ros.ament_cmake' and name 'demo_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ros'
+[0.727s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listener' with type 'ros.ament_cmake' and name 'talker_listener'
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_target' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'demo_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.901s] DEBUG:colcon.colcon_core.verb:Building package 'demo_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pritam/ros2_WS/build/demo_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pritam/ros2_WS/install/demo_pkg', 'merge_install': False, 'path': '/home/pritam/ros2_WS/src/demo_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.902s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pritam/ros2_WS/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pritam/ros2_WS/install/talker_listener', 'merge_install': False, 'path': '/home/pritam/ros2_WS/src/talker_listener', 'symlink_install': False, 'test_result_base': None}
+[0.902s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.903s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pritam/ros2_WS/src/demo_pkg' with build type 'ament_cmake'
+[0.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pritam/ros2_WS/src/demo_pkg'
+[0.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pritam/ros2_WS/src/talker_listener' with build type 'ament_cmake'
+[0.913s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pritam/ros2_WS/src/talker_listener'
+[0.913s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_pkg)
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg' for CMake module files
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg' for CMake config files
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_pkg', 'cmake_prefix_path')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.sh'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/bin'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib/pkgconfig/demo_pkg.pc'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib/python3.10/site-packages'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/bin'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.bash'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pritam/ros2_WS/install/demo_pkg/share/colcon-core/packages/demo_pkg)
+[1.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_pkg)
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg' for CMake config files
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_pkg', 'cmake_prefix_path')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/hook/cmake_prefix_path.sh'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/bin'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib/pkgconfig/demo_pkg.pc'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/lib/python3.10/site-packages'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/demo_pkg/bin'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.sh'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.bash'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.zsh'
+[1.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pritam/ros2_WS/install/demo_pkg/share/colcon-core/packages/demo_pkg)
+[6.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/talker_listener -- -j12 -l12
+[6.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pritam/ros2_WS/build/talker_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener
+[6.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[6.489s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener' for CMake module files
+[6.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pritam/ros2_WS/build/talker_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/talker_listener
+[6.490s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener' for CMake config files
+[6.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'cmake_prefix_path')
+[6.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.ps1'
+[6.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.dsv'
+[6.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.sh'
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib'
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/bin'
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib/python3.10/site-packages'
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/bin'
+[6.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.ps1'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.sh'
+[6.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.bash'
+[6.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.zsh'
+[6.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pritam/ros2_WS/install/talker_listener/share/colcon-core/packages/talker_listener)
+[6.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[6.497s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener' for CMake module files
+[6.497s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener' for CMake config files
+[6.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'cmake_prefix_path')
+[6.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.ps1'
+[6.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.dsv'
+[6.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/hook/cmake_prefix_path.sh'
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib'
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/bin'
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/lib/python3.10/site-packages'
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/pritam/ros2_WS/install/talker_listener/bin'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.ps1'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.dsv'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.sh'
+[6.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.bash'
+[6.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/pritam/ros2_WS/install/talker_listener/share/talker_listener/package.zsh'
+[6.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pritam/ros2_WS/install/talker_listener/share/colcon-core/packages/talker_listener)
+[6.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.503s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.625s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.625s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[6.625s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pritam/ros2_WS/install/local_setup.ps1'
+[6.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pritam/ros2_WS/install/_local_setup_util_ps1.py'
+[6.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pritam/ros2_WS/install/setup.ps1'
+[6.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pritam/ros2_WS/install/local_setup.sh'
+[6.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pritam/ros2_WS/install/_local_setup_util_sh.py'
+[6.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pritam/ros2_WS/install/setup.sh'
+[6.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pritam/ros2_WS/install/local_setup.bash'
+[6.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pritam/ros2_WS/install/setup.bash'
+[6.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pritam/ros2_WS/install/local_setup.zsh'
+[6.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pritam/ros2_WS/install/setup.zsh'

@@ -1,0 +1,33 @@
+[0.734s] Invoking command in '/home/pritam/ros2_WS/pub_sub': PYTHONPATH=/home/pritam/ros2_WS/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pub_sub build --build-base /home/pritam/ros2_WS/build/pub_sub/build install --record /home/pritam/ros2_WS/build/pub_sub/install.log --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.935s] creating ../build/pub_sub/pub_sub.egg-info
+[0.936s] writing ../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[0.936s] writing entry points to ../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[0.936s] writing requirements to ../build/pub_sub/pub_sub.egg-info/requires.txt
+[0.936s] writing top-level names to ../build/pub_sub/pub_sub.egg-info/top_level.txt
+[0.936s] writing manifest file '../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.937s] reading manifest file '../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.939s] creating /home/pritam/ros2_WS/build/pub_sub/build
+[0.939s] creating /home/pritam/ros2_WS/build/pub_sub/build/lib
+[0.939s] creating /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub
+[0.939s] copying pub_sub/__init__.py -> /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub
+[0.939s] running install
+[0.939s] running install_lib
+[0.940s] creating /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.940s] copying /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.940s] byte-compiling /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[0.941s] running install_data
+[0.941s] creating /home/pritam/ros2_WS/install/pub_sub/share/ament_index
+[0.942s] creating /home/pritam/ros2_WS/install/pub_sub/share/ament_index/resource_index
+[0.942s] creating /home/pritam/ros2_WS/install/pub_sub/share/ament_index/resource_index/packages
+[0.942s] copying resource/pub_sub -> /home/pritam/ros2_WS/install/pub_sub/share/ament_index/resource_index/packages
+[0.942s] copying package.xml -> /home/pritam/ros2_WS/install/pub_sub/share/pub_sub
+[0.942s] running install_egg_info
+[0.943s] Copying ../build/pub_sub/pub_sub.egg-info to /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[0.944s] running install_scripts
+[0.961s] writing list of installed files to '/home/pritam/ros2_WS/build/pub_sub/install.log'
+[0.981s] Invoked command in '/home/pritam/ros2_WS/pub_sub' returned '0': PYTHONPATH=/home/pritam/ros2_WS/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pub_sub build --build-base /home/pritam/ros2_WS/build/pub_sub/build install --record /home/pritam/ros2_WS/build/pub_sub/install.log --single-version-externally-managed install_data

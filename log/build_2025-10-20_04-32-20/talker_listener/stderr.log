@@ -1,0 +1,7 @@
+[01m[K/home/pritam/ros2_WS/src/talker_listener/src/listener_node.cpp:[m[K In constructor ‘[01m[KListener_node::Listener_node()[m[K’:
+[01m[K/home/pritam/ros2_WS/src/talker_listener/src/listener_node.cpp:10:94:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   10 |       subscription_ = this->create_subscription<std_msgs::msg::String>("SUB", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+      |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_listener.dir/build.make:76: CMakeFiles/my_listener.dir/src/listener_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/my_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

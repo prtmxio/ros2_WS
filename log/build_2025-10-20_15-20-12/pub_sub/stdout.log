@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pub_sub/talker_node.py -> /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub
+copying pub_sub/listener_node.py -> /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub
+running install
+running install_lib
+copying /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub/talker_node.py -> /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/pritam/ros2_WS/build/pub_sub/build/lib/pub_sub/listener_node.py -> /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub
+byte-compiling /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub/talker_node.py to talker_node.cpython-310.pyc
+byte-compiling /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub/listener_node.py to listener_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pub_sub/pub_sub.egg-info to /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/pritam/ros2_WS/install/pub_sub/lib/pub_sub
+writing list of installed files to '/home/pritam/ros2_WS/build/pub_sub/install.log'

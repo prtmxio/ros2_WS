@@ -1,0 +1,4 @@
+Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg
+Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg

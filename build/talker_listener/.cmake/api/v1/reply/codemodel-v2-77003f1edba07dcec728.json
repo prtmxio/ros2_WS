@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-af11626c489b63aab094.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "talker_listener",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_listener-7296e2c8cbad4114ec57.json",
+					"name" : "my_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_talker-44eae46d684bdf1ef10b.json",
+					"name" : "my_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker_listener_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker_listener_uninstall-8bc449443edc2ea2dc00.json",
+					"name" : "talker_listener_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-afb9377b08485c2b9f71.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pritam/ros2_WS/build/talker_listener",
+		"source" : "/home/pritam/ros2_WS/src/talker_listener"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
