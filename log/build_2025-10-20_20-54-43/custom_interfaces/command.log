@@ -1,0 +1,2 @@
+Invoking command in '/home/pritam/ros2_WS/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pritam/ros2_WS/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/pritam/ros2_WS/install/custom_interfaces
+Invoked command in '/home/pritam/ros2_WS/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pritam/ros2_WS/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/pritam/ros2_WS/install/custom_interfaces

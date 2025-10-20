@@ -1,0 +1,4 @@
+[console_scripts]
+add_cli = add_integers.client_node:main
+add_srv = add_integers.service_node:main
+

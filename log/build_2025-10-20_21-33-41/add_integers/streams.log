@@ -1,0 +1,25 @@
+[0.944s] Invoking command in '/home/pritam/ros2_WS/src/add_integers': CMAKE_PREFIX_PATH=/home/pritam/ros2_WS/install/custom_interfaces:/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg PYTHONPATH=/home/pritam/ros2_WS/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/pritam/ros2_WS/build/add_integers/build install --record /home/pritam/ros2_WS/build/add_integers/install.log --single-version-externally-managed install_data
+[1.182s] running egg_info
+[1.183s] writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+[1.184s] writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+[1.185s] writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+[1.185s] writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+[1.186s] writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+[1.188s] reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[1.188s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[1.188s] running build
+[1.189s] running build_py
+[1.189s] copying add_integers/client_node.py -> /home/pritam/ros2_WS/build/add_integers/build/lib/add_integers
+[1.189s] running install
+[1.189s] running install_lib
+[1.190s] copying /home/pritam/ros2_WS/build/add_integers/build/lib/add_integers/client_node.py -> /home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages/add_integers
+[1.191s] byte-compiling /home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages/add_integers/client_node.py to client_node.cpython-310.pyc
+[1.191s] running install_data
+[1.192s] running install_egg_info
+[1.194s] removing '/home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info' (and everything under it)
+[1.195s] Copying ../../build/add_integers/add_integers.egg-info to /home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info
+[1.196s] running install_scripts
+[1.215s] Installing add_cli script to /home/pritam/ros2_WS/install/add_integers/lib/add_integers
+[1.215s] Installing add_srv script to /home/pritam/ros2_WS/install/add_integers/lib/add_integers
+[1.215s] writing list of installed files to '/home/pritam/ros2_WS/build/add_integers/install.log'
+[1.238s] Invoked command in '/home/pritam/ros2_WS/src/add_integers' returned '0': CMAKE_PREFIX_PATH=/home/pritam/ros2_WS/install/custom_interfaces:/home/pritam/ros2_WS/install/talker_listener:/home/pritam/ros2_WS/install/demo_pkg PYTHONPATH=/home/pritam/ros2_WS/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pritam/ros2_WS/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/pritam/ros2_WS/build/add_integers/build install --record /home/pritam/ros2_WS/build/add_integers/install.log --single-version-externally-managed install_data

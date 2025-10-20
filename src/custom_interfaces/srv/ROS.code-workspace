@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../demo_pkg"
+		},
+		{
+			"path": "../../talker_listener"
+		},
+		{
+			"path": "../../pub_sub"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../add_integers"
+		}
+	],
+	"settings": {}
+}
