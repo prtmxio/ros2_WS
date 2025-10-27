@@ -21,10 +21,10 @@ class Client_node_async(Node):
 
 def main(args = None):
     rclpy.init(args = args)
-    # create
+    # create node and send_request
     add_cli = Client_node_async()
     add_cli.send_request()
-    # use
+    # use while the context is okay
     while rclpy.ok():
         rclpy.spin_once(add_cli)
         if(add_cli.future.done()):

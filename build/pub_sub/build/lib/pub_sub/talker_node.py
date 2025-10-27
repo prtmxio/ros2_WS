@@ -5,7 +5,11 @@ from std_msgs.msg import String
 class Talker_node(Node):
     def __init__(self):
         super().__init__("talker_node")
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
+
+        self.declare_parameter('topic', value='talker_topic')
+        topic_name = self.get_parameter('topic').get_parameter_value().string_value
+
+        self.publisher_ = self.create_publisher(String, topic_name, 10)
         timer_period = 0.5 # sec
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.counts_ = 0

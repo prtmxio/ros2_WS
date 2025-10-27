@@ -1,0 +1,29 @@
+[0.036s] Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[0.331s] Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pritam/ros2_WS/build/demo_pkg -- -j12 -l12
+[0.341s] Invoking command in '/home/pritam/ros2_WS/build/demo_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg
+[0.348s] -- Install configuration: ""
+[0.352s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/circle.py
+[0.353s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_A.py
+[0.353s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/node_B.py
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/pub.py
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_loop.py
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/square_open.py
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/lib/demo_pkg/sub.py
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch
+[0.354s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/launch/main.launch.py
+[0.355s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/package_run_dependencies/demo_pkg
+[0.355s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/parent_prefix_path/demo_pkg
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.sh
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/environment/path.dsv
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.bash
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.sh
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.zsh
+[0.356s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/local_setup.dsv
+[0.357s] -- Installing: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.dsv
+[0.357s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/ament_index/resource_index/packages/demo_pkg
+[0.357s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig.cmake
+[0.358s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/cmake/demo_pkgConfig-version.cmake
+[0.358s] -- Up-to-date: /home/pritam/ros2_WS/install/demo_pkg/share/demo_pkg/package.xml
+[0.359s] Invoked command in '/home/pritam/ros2_WS/build/demo_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pritam/ros2_WS/build/demo_pkg

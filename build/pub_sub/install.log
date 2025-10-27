@@ -6,6 +6,7 @@
 /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub/__pycache__/listener_node.cpython-310.pyc
 /home/pritam/ros2_WS/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
 /home/pritam/ros2_WS/install/pub_sub/share/pub_sub/package.xml
+/home/pritam/ros2_WS/install/pub_sub/share/pub_sub/launch/talker_listener_launch.py
 /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info/top_level.txt
 /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info/requires.txt
 /home/pritam/ros2_WS/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info/PKG-INFO
